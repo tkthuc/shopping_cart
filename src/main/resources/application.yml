@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    name: ecommerce
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  cache:
+    type: caffeine
+    cache-names: products

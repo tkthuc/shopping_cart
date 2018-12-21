@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.App-header{
+  background-color: azure;
+  height: 4vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.App-header .company-name {
+    flex: 1;
+    text-align: left;
+}
+
+.App-header .page-section {
+    flex: 1;
+    text-align: right;
+
+}
+
+.App-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-gap: 10px;
+}

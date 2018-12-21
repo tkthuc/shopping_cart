@@ -1,0 +1,44 @@
+.product-box {
+    width: 150px;
+    height: 200px;
+    border-style: solid;
+}
+
+.product-box .header {
+    width: 100%;
+    height: 20px;
+    background-color: azure;
+}
+
+.product-box .content {
+  padding: 10px;
+    height: 100%;
+}
+
+.product-box .product-url {
+    background-color: cornsilk;
+    vertical-align: middle;
+    text-align: center;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-box .product-box-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-box .product-box-bottom .quantity {
+    flex: 1;
+    margin-right:5px;
+}
+
+.product-box .product-box-bottom .quantity input {
+    width: 100%;
+}
+
+.product-box .product-box-bottom .button {
+    flex: 2;
+}
